@@ -1,3 +1,5 @@
+import React from 'react';
+
 const SIZE = '18px';
 const COLOR = '#000000';
 const WEIGHT = '2';
