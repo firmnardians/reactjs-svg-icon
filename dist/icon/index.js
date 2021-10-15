@@ -11,7 +11,7 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /**
- * ReactJs SVG ICON
+ * Senirupa
  * Author firmnardians
  * License MIT
  */

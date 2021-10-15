@@ -1,6 +1,6 @@
-# SeniRupa
+# Senirupa
 
-SeniRupa is a tool for React design. 🎨
+Senirupa is a tool for React design. 🎨
 
 -   Easy to use
 -   Customizable
@@ -9,7 +9,7 @@ SeniRupa is a tool for React design. 🎨
 
 ## Install
 
-To install SeniRupa
+To install Senirupa
 
 ```bash
   npm i senirupa --save
