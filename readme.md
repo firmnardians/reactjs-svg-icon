@@ -1,6 +1,6 @@
-# REACTJS SVG ICON
+# SeniRupa
 
-SVG icon set for React JS 🎨
+SeniRupa is a tool for React design. 🎨
 
 -   Easy to use
 -   Customizable
@@ -9,18 +9,18 @@ SVG icon set for React JS 🎨
 
 ## Install
 
-To install REACTJS SVG ICON
+To install SeniRupa
 
 ```bash
-  npm i reactjs-svg-icon --save
+  npm i senirupa --save
 ```
 
 ## Usage
 
-Check the example folder for more details. [Example](https://github.com/firmnardians/reactjs-svg-icon)
+Check the example folder for more details. [Example](https://github.com/firmnardians/senirupa/tree/master/example)
 
 ```javascript
-import { IconArrowUp } from 'reactjs-svg-icon';
+import { IconArrowUp } from 'senirupa/icon';
 
 function App() {
 	return (
@@ -31,7 +31,7 @@ function App() {
 }
 ```
 
-## Props
+## Icon Props
 
 Add props for icon customization, all data types are string.
 

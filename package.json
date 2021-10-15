@@ -1,8 +1,8 @@
 {
-	"name": "reactjs-svg-icon",
+	"name": "senirupa",
 	"version": "0.1.4",
 	"private": false,
-	"description": "SVG icon for React JS",
+	"description": "React Helper",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
 	"files": [
@@ -10,16 +10,19 @@
 		"README.md"
 	],
 	"keywords": [
-		"icon",
-		"react",
-		"svg icon",
-		"react js icon"
+		"Icon",
+		"Icon Pack",
+		"React",
+		"Icon SVG",
+		"React Component",
+		"React JS",
+		"React Design"
 	],
 	"author": "firmnardians",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/firmnardians/reactjs-svg-icon.git"
+		"url": "https://github.com/firmnardians/senirupa"
 	},
 	"scripts": {
 		"start": "react-scripts start",
