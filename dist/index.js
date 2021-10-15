@@ -13,7 +13,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 /**
  * Senirupa
  * Author firmnardians
- * License MIT
+ * Copyright(c) firmnardians
+ * MIT Licensed
  */
 const SIZE = '18px';
 const COLOR = '#000000';

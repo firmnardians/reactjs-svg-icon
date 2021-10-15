@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconArrowUp } from 'senirupa/use/icon';
+import { IconArrowUp } from 'senirupa';
 
 function App() {
 	return (
