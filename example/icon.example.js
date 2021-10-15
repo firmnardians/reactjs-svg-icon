@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconArrowUp } from 'reactjs-svg-icon';
+import { IconArrowUp } from 'senirupa/use/icon';
 
 function App() {
 	return (

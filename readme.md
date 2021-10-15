@@ -20,7 +20,7 @@ To install Senirupa
 Check the example folder for more details. [Example](https://github.com/firmnardians/senirupa/tree/master/example)
 
 ```javascript
-import { IconArrowUp } from 'senirupa/icon';
+import { IconArrowUp } from 'senirupa/use/icon';
 
 function App() {
 	return (

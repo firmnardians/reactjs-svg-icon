@@ -1,10 +1,10 @@
 {
 	"name": "senirupa",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"private": false,
 	"description": "React Helper",
-	"main": "dist/index.js",
-	"module": "dist/index.js",
+	"main": "dist",
+	"module": "dist",
 	"files": [
 		"dist",
 		"README.md"
@@ -26,7 +26,7 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+		"build": "rm -rf use && NODE_ENV=production babel src/lib --out-dir use --copy-files",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
