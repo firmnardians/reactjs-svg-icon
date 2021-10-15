@@ -18,13 +18,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const SIZE = '18px';
 const COLOR = '#000000';
 const WEIGHT = '2';
-const STYLE = 'round';
+const LINECAP = 'round';
+const LINEJOIN = 'round';
 /**
  * Destructuring JavaScript Function
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 const IconArrowUp = _ref => {
@@ -32,7 +34,8 @@ const IconArrowUp = _ref => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -42,8 +45,8 @@ const IconArrowUp = _ref => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M12 19V6M5 12l7-7 7 7"
   }));
@@ -53,7 +56,8 @@ const IconArrowUp = _ref => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -64,7 +68,8 @@ const IconArrowDown = _ref2 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref2;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -74,8 +79,8 @@ const IconArrowDown = _ref2 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M12 5v13M5 12l7 7 7-7"
   }));
@@ -85,7 +90,8 @@ const IconArrowDown = _ref2 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -96,7 +102,8 @@ const IconArrowLeft = _ref3 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref3;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -106,8 +113,8 @@ const IconArrowLeft = _ref3 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M19 12H6M12 5l-7 7 7 7"
   }));
@@ -117,7 +124,8 @@ const IconArrowLeft = _ref3 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -128,7 +136,8 @@ const IconArrowRight = _ref4 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref4;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -138,8 +147,8 @@ const IconArrowRight = _ref4 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M5 12h13M12 5l7 7-7 7"
   }));
@@ -149,7 +158,8 @@ const IconArrowRight = _ref4 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -160,7 +170,8 @@ const IconArrowUpLeft = _ref5 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref5;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -170,8 +181,8 @@ const IconArrowUpLeft = _ref5 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M17 17L7.8 7.7M7 17V7h10"
   }));
@@ -181,7 +192,8 @@ const IconArrowUpLeft = _ref5 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -192,7 +204,8 @@ const IconArrowUpRight = _ref6 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref6;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -202,8 +215,8 @@ const IconArrowUpRight = _ref6 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M7 17l9.2-9.2M17 17V7H7"
   }));
@@ -213,7 +226,8 @@ const IconArrowUpRight = _ref6 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -224,7 +238,8 @@ const IconArrowDownLeft = _ref7 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref7;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -234,8 +249,8 @@ const IconArrowDownLeft = _ref7 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M17 7l-9.2 9.2M7 7v10h10"
   }));
@@ -245,7 +260,8 @@ const IconArrowDownLeft = _ref7 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -256,7 +272,8 @@ const IconArrowDownRight = _ref8 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref8;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -266,8 +283,8 @@ const IconArrowDownRight = _ref8 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M7 7l9.2 9.2M17 7v10H7"
   }));
@@ -277,7 +294,8 @@ const IconArrowDownRight = _ref8 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -288,7 +306,8 @@ const IconCornerDownLeft = _ref9 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref9;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -298,8 +317,8 @@ const IconCornerDownLeft = _ref9 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M10 9l-6 6 6 6"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -311,7 +330,8 @@ const IconCornerDownLeft = _ref9 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -322,7 +342,8 @@ const IconCornerDownRight = _ref10 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref10;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -332,8 +353,8 @@ const IconCornerDownRight = _ref10 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M14 9l6 6-6 6"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -345,7 +366,8 @@ const IconCornerDownRight = _ref10 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -356,7 +378,8 @@ const IconCornerUpLeft = _ref11 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref11;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -366,8 +389,8 @@ const IconCornerUpLeft = _ref11 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M10 16l-6-6 6-6"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -379,7 +402,8 @@ const IconCornerUpLeft = _ref11 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -390,7 +414,8 @@ const IconCornerUpRight = _ref12 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref12;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -400,8 +425,8 @@ const IconCornerUpRight = _ref12 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M14 16l6-6-6-6"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -413,7 +438,8 @@ const IconCornerUpRight = _ref12 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -424,7 +450,8 @@ const IconCornerLeftDown = _ref13 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref13;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -434,8 +461,8 @@ const IconCornerLeftDown = _ref13 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M15 14l-6 6-6-6"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -447,7 +474,8 @@ const IconCornerLeftDown = _ref13 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -458,7 +486,8 @@ const IconCornerLeftUp = _ref14 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref14;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -468,8 +497,8 @@ const IconCornerLeftUp = _ref14 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M15 10L9 4l-6 6"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -481,7 +510,8 @@ const IconCornerLeftUp = _ref14 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -492,7 +522,8 @@ const IconCornerRightDown = _ref15 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref15;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -502,8 +533,8 @@ const IconCornerRightDown = _ref15 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M9 14l6 6 6-6"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -515,7 +546,8 @@ const IconCornerRightDown = _ref15 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -526,7 +558,8 @@ const IconCornerRightUp = _ref16 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref16;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -536,8 +569,8 @@ const IconCornerRightUp = _ref16 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M9 10l6-6 6 6"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -549,7 +582,8 @@ const IconCornerRightUp = _ref16 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -560,7 +594,8 @@ const IconChevronDown = _ref17 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref17;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -570,8 +605,8 @@ const IconChevronDown = _ref17 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M6 9l6 6 6-6"
   }));
@@ -581,7 +616,8 @@ const IconChevronDown = _ref17 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -592,7 +628,8 @@ const IconChevronUp = _ref18 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref18;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -602,8 +639,8 @@ const IconChevronUp = _ref18 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M18 15l-6-6-6 6"
   }));
@@ -613,7 +650,8 @@ const IconChevronUp = _ref18 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -624,7 +662,8 @@ const IconChevronLeft = _ref19 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref19;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -634,8 +673,8 @@ const IconChevronLeft = _ref19 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M15 18l-6-6 6-6"
   }));
@@ -645,7 +684,8 @@ const IconChevronLeft = _ref19 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -656,7 +696,8 @@ const IconChevronRight = _ref20 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref20;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -666,8 +707,8 @@ const IconChevronRight = _ref20 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M9 18l6-6-6-6"
   }));
@@ -677,7 +718,8 @@ const IconChevronRight = _ref20 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -688,7 +730,8 @@ const IconChevronsDown = _ref21 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref21;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -698,8 +741,8 @@ const IconChevronsDown = _ref21 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M7 13l5 5 5-5M7 6l5 5 5-5"
   }));
@@ -709,7 +752,8 @@ const IconChevronsDown = _ref21 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -720,7 +764,8 @@ const IconChevronsLeft = _ref22 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref22;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -730,8 +775,8 @@ const IconChevronsLeft = _ref22 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M11 17l-5-5 5-5M18 17l-5-5 5-5"
   }));
@@ -741,7 +786,8 @@ const IconChevronsLeft = _ref22 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -752,7 +798,8 @@ const IconChevronsRight = _ref23 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref23;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -762,8 +809,8 @@ const IconChevronsRight = _ref23 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M13 17l5-5-5-5M6 17l5-5-5-5"
   }));
@@ -773,7 +820,8 @@ const IconChevronsRight = _ref23 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -784,7 +832,8 @@ const IconChevronsUp = _ref24 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref24;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -794,8 +843,8 @@ const IconChevronsUp = _ref24 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M17 11l-5-5-5 5M17 18l-5-5-5 5"
   }));
@@ -805,7 +854,8 @@ const IconChevronsUp = _ref24 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -816,7 +866,8 @@ const IconArrowUpCircle = _ref25 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref25;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -826,8 +877,8 @@ const IconArrowUpCircle = _ref25 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -841,7 +892,8 @@ const IconArrowUpCircle = _ref25 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -852,7 +904,8 @@ const IconArrowDownCircle = _ref26 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref26;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -862,8 +915,8 @@ const IconArrowDownCircle = _ref26 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -877,7 +930,8 @@ const IconArrowDownCircle = _ref26 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -888,7 +942,8 @@ const IconArrowRightCircle = _ref27 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref27;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -898,8 +953,8 @@ const IconArrowRightCircle = _ref27 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -913,7 +968,8 @@ const IconArrowRightCircle = _ref27 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -924,7 +980,8 @@ const IconArrowLeftCircle = _ref28 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref28;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -934,8 +991,8 @@ const IconArrowLeftCircle = _ref28 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -949,7 +1006,8 @@ const IconArrowLeftCircle = _ref28 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -960,7 +1018,8 @@ const IconRefreshCCW = _ref29 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref29;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -970,8 +1029,8 @@ const IconRefreshCCW = _ref29 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, ' ', /*#__PURE__*/_react.default.createElement("path", {
     d: "M2.5 2v6h6M21.5 22v-6h-6"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -983,7 +1042,8 @@ const IconRefreshCCW = _ref29 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -994,7 +1054,8 @@ const IconRefreshCW = _ref30 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref30;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1004,8 +1065,8 @@ const IconRefreshCW = _ref30 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"
   }));
@@ -1015,7 +1076,8 @@ const IconRefreshCW = _ref30 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1026,7 +1088,8 @@ const IconRotateLeft = _ref31 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref31;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1036,8 +1099,8 @@ const IconRotateLeft = _ref31 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M2.5 2v6h6M2.66 15.57a10 10 0 1 0 .57-8.38"
   }));
@@ -1047,7 +1110,8 @@ const IconRotateLeft = _ref31 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1058,7 +1122,8 @@ const IconRotateRight = _ref32 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref32;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1068,8 +1133,8 @@ const IconRotateRight = _ref32 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38"
   }));
@@ -1079,7 +1144,8 @@ const IconRotateRight = _ref32 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1090,7 +1156,8 @@ const IconRepeat = _ref33 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref33;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1100,8 +1167,8 @@ const IconRepeat = _ref33 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M17 2.1l4 4-4 4"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -1115,7 +1182,8 @@ const IconRepeat = _ref33 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1126,7 +1194,8 @@ const IconArrowIn = _ref34 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref34;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1136,8 +1205,8 @@ const IconArrowIn = _ref34 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M13.8 12H3"
   }));
@@ -1147,7 +1216,8 @@ const IconArrowIn = _ref34 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1158,7 +1228,8 @@ const IconArrowInSquare = _ref35 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref35;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1168,8 +1239,8 @@ const IconArrowInSquare = _ref35 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M15 3h6v18h-6M10 17l5-5-5-5M13.8 12H3"
   }));
@@ -1179,7 +1250,8 @@ const IconArrowInSquare = _ref35 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1190,7 +1262,8 @@ const IconArrowInCircle = _ref36 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref36;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1200,8 +1273,8 @@ const IconArrowInCircle = _ref36 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M10 17l5-5-5-5"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -1213,7 +1286,8 @@ const IconArrowInCircle = _ref36 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1224,7 +1298,8 @@ const IconArrowOut = _ref37 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref37;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1234,8 +1309,8 @@ const IconArrowOut = _ref37 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M10 3H6a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h4M16 17l5-5-5-5M19.8 12H9"
   }));
@@ -1245,7 +1320,8 @@ const IconArrowOut = _ref37 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1256,7 +1332,8 @@ const IconArrowOutSquare = _ref38 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref38;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1266,8 +1343,8 @@ const IconArrowOutSquare = _ref38 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M16 17l5-5-5-5M19.8 12H9M10 3H4v18h6"
   }));
@@ -1277,7 +1354,8 @@ const IconArrowOutSquare = _ref38 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1288,7 +1366,8 @@ const IconArrowOutCircle = _ref39 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref39;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1298,8 +1377,8 @@ const IconArrowOutCircle = _ref39 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M16 17l5-5-5-5M19.8 12H9M13 22a10 10 0 1 1 0-20"
   }));
@@ -1309,7 +1388,8 @@ const IconArrowOutCircle = _ref39 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1320,7 +1400,8 @@ const IconUpload = _ref40 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref40;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1330,8 +1411,8 @@ const IconUpload = _ref40 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 8l-5-5-5 5M12 4.2v10.3"
   }));
@@ -1341,7 +1422,8 @@ const IconUpload = _ref40 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1352,7 +1434,8 @@ const IconDownload = _ref41 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref41;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1362,8 +1445,8 @@ const IconDownload = _ref41 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5"
   }));
@@ -1373,7 +1456,8 @@ const IconDownload = _ref41 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1384,7 +1468,8 @@ const IconUploadCloud = _ref42 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref42;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1394,8 +1479,8 @@ const IconUploadCloud = _ref42 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M21.2 15c.7-1.2 1-2.5.7-3.9-.6-2-2.4-3.5-4.4-3.5h-1.2c-.7-3-3.2-5.2-6.2-5.6-3-.3-5.9 1.3-7.3 4-1.2 2.5-1 6.5.5 8.8m8.7-1.6V21"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -1407,7 +1492,8 @@ const IconUploadCloud = _ref42 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1418,7 +1504,8 @@ const IconDownloadCloud = _ref43 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref43;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1428,8 +1515,8 @@ const IconDownloadCloud = _ref43 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M21.2 15c.7-1.2 1-2.5.7-3.9-.6-2-2.4-3.5-4.4-3.5h-1.2c-.7-3-3.2-5.2-6.2-5.6-3-.3-5.9 1.3-7.3 4-1.2 2.5-1 6.5.5 8.8M12 19.8V12M16 17l-4 4-4-4"
   }));
@@ -1439,7 +1526,8 @@ const IconDownloadCloud = _ref43 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1450,7 +1538,8 @@ const IconMinimize = _ref44 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref44;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1460,8 +1549,8 @@ const IconMinimize = _ref44 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M4 14h6v6M3 21l6.1-6.1M20 10h-6V4M21 3l-6.1 6.1"
   }));
@@ -1471,7 +1560,8 @@ const IconMinimize = _ref44 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1482,7 +1572,8 @@ const IconMaximize = _ref45 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref45;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1492,8 +1583,8 @@ const IconMaximize = _ref45 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"
   }));
@@ -1503,7 +1594,8 @@ const IconMaximize = _ref45 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1514,7 +1606,8 @@ const IconTrendingDown = _ref46 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref46;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1524,8 +1617,8 @@ const IconTrendingDown = _ref46 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M20.2 17.2l-7.7-7.7-4 4-5.7-5.7"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -1537,7 +1630,8 @@ const IconTrendingDown = _ref46 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1548,7 +1642,8 @@ const IconTrendingUp = _ref47 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref47;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1558,8 +1653,8 @@ const IconTrendingUp = _ref47 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M20.2 7.8l-7.7 7.7-4-4-5.7 5.7"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -1571,7 +1666,8 @@ const IconTrendingUp = _ref47 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1582,7 +1678,8 @@ const IconShuffle = _ref48 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref48;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1592,8 +1689,8 @@ const IconShuffle = _ref48 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M16 3h5v5M4 20L20.2 3.8M21 16v5h-5M15 15l5.1 5.1M4 4l5 5"
   }));
@@ -1603,7 +1700,8 @@ const IconShuffle = _ref48 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1614,7 +1712,8 @@ const IconMove = _ref49 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref49;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1624,8 +1723,8 @@ const IconMove = _ref49 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M5.2 9l-3 3 3 3M9 5.2l3-3 3 3M15 18.9l-3 3-3-3M18.9 9l3 3-3 3M3.3 12h17.4M12 3.2v17.6"
   }));
@@ -1635,7 +1734,8 @@ const IconMove = _ref49 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1646,7 +1746,8 @@ const IconExpand = _ref50 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref50;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1656,8 +1757,8 @@ const IconExpand = _ref50 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M3.8 3.8l16.4 16.4M20.2 3.8L3.8 20.2M15 3h6v6M9 3H3v6M15 21h6v-6M9 21H3v-6"
   }));
@@ -1667,7 +1768,8 @@ const IconExpand = _ref50 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1678,7 +1780,8 @@ const IconExternalLink = _ref51 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref51;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1688,8 +1791,8 @@ const IconExternalLink = _ref51 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("g", {
     fill: "none",
     "fill-rule": "evenodd"
@@ -1702,7 +1805,8 @@ const IconExternalLink = _ref51 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1713,7 +1817,8 @@ const IconMenu = _ref52 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref52;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1723,8 +1828,8 @@ const IconMenu = _ref52 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("line", {
     x1: "3",
     y1: "12",
@@ -1747,7 +1852,8 @@ const IconMenu = _ref52 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1758,7 +1864,8 @@ const IconGrid = _ref53 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref53;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1768,8 +1875,8 @@ const IconGrid = _ref53 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("rect", {
     x: "3",
     y: "3",
@@ -1797,7 +1904,8 @@ const IconGrid = _ref53 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1808,7 +1916,8 @@ const IconLoader = _ref54 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref54;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1818,8 +1927,8 @@ const IconLoader = _ref54 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("line", {
     x1: "12",
     y1: "2",
@@ -1867,7 +1976,8 @@ const IconLoader = _ref54 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1878,7 +1988,8 @@ const IconAlertCircle = _ref55 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref55;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1888,8 +1999,8 @@ const IconAlertCircle = _ref55 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -1911,7 +2022,8 @@ const IconAlertCircle = _ref55 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1922,7 +2034,8 @@ const IconAlertOctagon = _ref56 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref56;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1932,8 +2045,8 @@ const IconAlertOctagon = _ref56 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"
   }), /*#__PURE__*/_react.default.createElement("line", {
@@ -1953,7 +2066,8 @@ const IconAlertOctagon = _ref56 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -1964,7 +2078,8 @@ const IconAlertTriangle = _ref57 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref57;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1974,8 +2089,8 @@ const IconAlertTriangle = _ref57 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
   }), /*#__PURE__*/_react.default.createElement("line", {
@@ -1995,7 +2110,8 @@ const IconAlertTriangle = _ref57 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2006,7 +2122,8 @@ const IconHelpCircle = _ref58 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref58;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2016,8 +2133,8 @@ const IconHelpCircle = _ref58 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -2036,7 +2153,8 @@ const IconHelpCircle = _ref58 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2047,7 +2165,8 @@ const IconInfo = _ref59 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref59;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2057,8 +2176,8 @@ const IconInfo = _ref59 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -2080,7 +2199,8 @@ const IconInfo = _ref59 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2091,7 +2211,8 @@ const IconHexagon = _ref60 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref60;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2101,8 +2222,8 @@ const IconHexagon = _ref60 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M12 2l9 4.9V17L12 22l-9-4.9V7z"
   }));
@@ -2112,7 +2233,8 @@ const IconHexagon = _ref60 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2123,7 +2245,8 @@ const IconOctagon = _ref61 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref61;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2133,8 +2256,8 @@ const IconOctagon = _ref61 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"
   }));
@@ -2144,7 +2267,8 @@ const IconOctagon = _ref61 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2155,7 +2279,8 @@ const IconTriangle = _ref62 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref62;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2165,8 +2290,8 @@ const IconTriangle = _ref62 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M3 20h18L12 4z"
   }));
@@ -2176,7 +2301,8 @@ const IconTriangle = _ref62 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2187,7 +2313,8 @@ const IconCircle = _ref63 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref63;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2197,8 +2324,8 @@ const IconCircle = _ref63 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -2210,7 +2337,8 @@ const IconCircle = _ref63 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2221,7 +2349,8 @@ const IconSquare = _ref64 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref64;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2231,8 +2360,8 @@ const IconSquare = _ref64 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("rect", {
     x: "3",
     y: "3",
@@ -2247,7 +2376,8 @@ const IconSquare = _ref64 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2258,7 +2388,8 @@ const IconPlus = _ref65 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref65;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2268,8 +2399,8 @@ const IconPlus = _ref65 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("line", {
     x1: "12",
     y1: "5",
@@ -2287,7 +2418,8 @@ const IconPlus = _ref65 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2298,7 +2430,8 @@ const IconMinus = _ref66 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref66;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2308,8 +2441,8 @@ const IconMinus = _ref66 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("line", {
     x1: "5",
     y1: "12",
@@ -2322,7 +2455,8 @@ const IconMinus = _ref66 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2333,7 +2467,8 @@ const IconX = _ref67 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref67;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2343,8 +2478,8 @@ const IconX = _ref67 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("line", {
     x1: "18",
     y1: "6",
@@ -2362,7 +2497,8 @@ const IconX = _ref67 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2373,7 +2509,8 @@ const IconPlusCircle = _ref68 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref68;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2383,8 +2520,8 @@ const IconPlusCircle = _ref68 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -2406,7 +2543,8 @@ const IconPlusCircle = _ref68 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2417,7 +2555,8 @@ const IconMinusCircle = _ref69 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref69;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2427,8 +2566,8 @@ const IconMinusCircle = _ref69 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -2445,7 +2584,8 @@ const IconMinusCircle = _ref69 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2456,7 +2596,8 @@ const IconXCircle = _ref70 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref70;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2466,8 +2607,8 @@ const IconXCircle = _ref70 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -2489,7 +2630,8 @@ const IconXCircle = _ref70 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2500,7 +2642,8 @@ const IconPlusSquare = _ref71 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref71;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2510,8 +2653,8 @@ const IconPlusSquare = _ref71 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M3 3h18v18H3zM12 8v8m-4-4h8"
   }));
@@ -2521,7 +2664,8 @@ const IconPlusSquare = _ref71 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2532,7 +2676,8 @@ const IconMinusSquare = _ref72 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref72;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2542,8 +2687,8 @@ const IconMinusSquare = _ref72 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M3 3h18v18H3zM8 12h8"
   }));
@@ -2553,7 +2698,8 @@ const IconMinusSquare = _ref72 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2564,7 +2710,8 @@ const IconXSquare = _ref73 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref73;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2574,8 +2721,8 @@ const IconXSquare = _ref73 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M3 3h18v18H3zM15 9l-6 6m0-6l6 6"
   }));
@@ -2585,7 +2732,8 @@ const IconXSquare = _ref73 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2596,7 +2744,8 @@ const IconCheckCircle = _ref74 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref74;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2606,8 +2755,8 @@ const IconCheckCircle = _ref74 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M22 11.08V12a10 10 0 1 1-5.93-9.14"
   }), /*#__PURE__*/_react.default.createElement("polyline", {
@@ -2619,7 +2768,8 @@ const IconCheckCircle = _ref74 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2630,7 +2780,8 @@ const IconCheckSquare = _ref75 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref75;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2640,8 +2791,8 @@ const IconCheckSquare = _ref75 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polyline", {
     points: "9 11 12 14 22 4"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -2653,7 +2804,8 @@ const IconCheckSquare = _ref75 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2664,7 +2816,8 @@ const IconCheck = _ref76 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref76;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2674,8 +2827,8 @@ const IconCheck = _ref76 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polyline", {
     points: "20 6 9 17 4 12"
   }));
@@ -2685,7 +2838,8 @@ const IconCheck = _ref76 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2696,7 +2850,8 @@ const IconSlash = _ref77 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref77;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2706,8 +2861,8 @@ const IconSlash = _ref77 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -2724,7 +2879,8 @@ const IconSlash = _ref77 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2735,7 +2891,8 @@ const IconMoreHorizontal = _ref78 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref78;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2745,8 +2902,8 @@ const IconMoreHorizontal = _ref78 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -2766,7 +2923,8 @@ const IconMoreHorizontal = _ref78 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2777,7 +2935,8 @@ const IconMoreVertical = _ref79 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref79;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2787,8 +2946,8 @@ const IconMoreVertical = _ref79 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -2808,7 +2967,8 @@ const IconMoreVertical = _ref79 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2819,7 +2979,8 @@ const IconEdit = _ref80 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref80;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2829,8 +2990,8 @@ const IconEdit = _ref80 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"
   }), /*#__PURE__*/_react.default.createElement("polygon", {
@@ -2842,7 +3003,8 @@ const IconEdit = _ref80 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2853,7 +3015,8 @@ const IconEdit2 = _ref81 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref81;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2863,8 +3026,8 @@ const IconEdit2 = _ref81 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "16 3 21 8 8 21 3 21 3 16 16 3"
   }));
@@ -2874,7 +3037,8 @@ const IconEdit2 = _ref81 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2885,7 +3049,8 @@ const IconEdit3 = _ref82 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref82;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2895,8 +3060,8 @@ const IconEdit3 = _ref82 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "14 2 18 6 7 17 3 17 3 13 14 2"
   }), /*#__PURE__*/_react.default.createElement("line", {
@@ -2911,7 +3076,8 @@ const IconEdit3 = _ref82 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2922,7 +3088,8 @@ const IconSetting = _ref83 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref83;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2932,8 +3099,8 @@ const IconSetting = _ref83 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -2947,7 +3114,8 @@ const IconSetting = _ref83 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -2958,7 +3126,8 @@ const IconSliders = _ref84 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref84;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -2968,8 +3137,8 @@ const IconSliders = _ref84 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("line", {
     x1: "4",
     y1: "21",
@@ -3022,7 +3191,8 @@ const IconSliders = _ref84 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3033,7 +3203,8 @@ const IconSearch = _ref85 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref85;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3043,8 +3214,8 @@ const IconSearch = _ref85 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "11",
     cy: "11",
@@ -3061,7 +3232,8 @@ const IconSearch = _ref85 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3072,7 +3244,8 @@ const IconZoomIn = _ref86 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref86;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3082,8 +3255,8 @@ const IconZoomIn = _ref86 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "11",
     cy: "11",
@@ -3110,7 +3283,8 @@ const IconZoomIn = _ref86 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3121,7 +3295,8 @@ const IconZoomOut = _ref87 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref87;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3131,8 +3306,8 @@ const IconZoomOut = _ref87 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "11",
     cy: "11",
@@ -3154,7 +3329,8 @@ const IconZoomOut = _ref87 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3165,7 +3341,8 @@ const IconShare = _ref88 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref88;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3175,8 +3352,8 @@ const IconShare = _ref88 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "18",
     cy: "5",
@@ -3206,7 +3383,8 @@ const IconShare = _ref88 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3217,7 +3395,8 @@ const IconClock = _ref89 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref89;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3227,8 +3406,8 @@ const IconClock = _ref89 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -3242,7 +3421,8 @@ const IconClock = _ref89 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3253,7 +3433,8 @@ const IconEye = _ref90 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref90;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3263,8 +3444,8 @@ const IconEye = _ref90 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
   }), /*#__PURE__*/_react.default.createElement("circle", {
@@ -3278,7 +3459,8 @@ const IconEye = _ref90 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3289,7 +3471,8 @@ const IconStar = _ref91 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref91;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3299,8 +3482,8 @@ const IconStar = _ref91 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
   }));
@@ -3310,7 +3493,8 @@ const IconStar = _ref91 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3321,7 +3505,8 @@ const IconHeart = _ref92 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref92;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3331,8 +3516,8 @@ const IconHeart = _ref92 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
   }));
@@ -3342,7 +3527,8 @@ const IconHeart = _ref92 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3353,7 +3539,8 @@ const IconFlag = _ref93 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref93;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3363,8 +3550,8 @@ const IconFlag = _ref93 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"
   }), /*#__PURE__*/_react.default.createElement("line", {
@@ -3379,7 +3566,8 @@ const IconFlag = _ref93 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3390,7 +3578,8 @@ const IconBookmark = _ref94 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref94;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3400,8 +3589,8 @@ const IconBookmark = _ref94 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
   }));
@@ -3411,7 +3600,8 @@ const IconBookmark = _ref94 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3422,7 +3612,8 @@ const IconMessageCircle = _ref95 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref95;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3432,8 +3623,8 @@ const IconMessageCircle = _ref95 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
   }));
@@ -3443,7 +3634,8 @@ const IconMessageCircle = _ref95 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3454,7 +3646,8 @@ const IconMessageSquare = _ref96 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref96;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3464,8 +3657,8 @@ const IconMessageSquare = _ref96 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
   }));
@@ -3475,7 +3668,8 @@ const IconMessageSquare = _ref96 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3486,7 +3680,8 @@ const IconTrash = _ref97 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref97;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3496,8 +3691,8 @@ const IconTrash = _ref97 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polyline", {
     points: "3 6 5 6 21 6"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -3519,7 +3714,8 @@ const IconTrash = _ref97 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3530,7 +3726,8 @@ const IconMoon = _ref98 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref98;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3540,8 +3737,8 @@ const IconMoon = _ref98 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
   }));
@@ -3551,7 +3748,8 @@ const IconMoon = _ref98 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3562,7 +3760,8 @@ const IconSun = _ref99 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref99;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3572,8 +3771,8 @@ const IconSun = _ref99 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -3587,7 +3786,8 @@ const IconSun = _ref99 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3598,7 +3798,8 @@ const IconThumbsDown = _ref100 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref100;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3608,8 +3809,8 @@ const IconThumbsDown = _ref100 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"
   }));
@@ -3619,7 +3820,8 @@ const IconThumbsDown = _ref100 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3630,7 +3832,8 @@ const IconThumbsUp = _ref101 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref101;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3640,8 +3843,8 @@ const IconThumbsUp = _ref101 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
   }));
@@ -3651,7 +3854,8 @@ const IconThumbsUp = _ref101 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3662,7 +3866,8 @@ const IconMaximize2 = _ref102 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref102;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3672,8 +3877,8 @@ const IconMaximize2 = _ref102 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
   }));
@@ -3683,7 +3888,8 @@ const IconMaximize2 = _ref102 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3694,7 +3900,8 @@ const IconMinimize2 = _ref103 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref103;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3704,8 +3911,8 @@ const IconMinimize2 = _ref103 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"
   }));
@@ -3715,7 +3922,8 @@ const IconMinimize2 = _ref103 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3726,7 +3934,8 @@ const IconBell = _ref104 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref104;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3736,8 +3945,8 @@ const IconBell = _ref104 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"
   }));
@@ -3747,7 +3956,8 @@ const IconBell = _ref104 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3758,7 +3968,8 @@ const IconMail = _ref105 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref105;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3768,8 +3979,8 @@ const IconMail = _ref105 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
   }), /*#__PURE__*/_react.default.createElement("polyline", {
@@ -3781,7 +3992,8 @@ const IconMail = _ref105 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3792,7 +4004,8 @@ const IconCalendar = _ref106 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref106;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3802,8 +4015,8 @@ const IconCalendar = _ref106 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("rect", {
     x: "3",
     y: "4",
@@ -3833,7 +4046,8 @@ const IconCalendar = _ref106 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3844,7 +4058,8 @@ const IconLock = _ref107 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref107;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3854,8 +4069,8 @@ const IconLock = _ref107 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("rect", {
     x: "3",
     y: "11",
@@ -3872,7 +4087,8 @@ const IconLock = _ref107 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3883,7 +4099,8 @@ const IconUnlock = _ref108 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref108;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3893,8 +4110,8 @@ const IconUnlock = _ref108 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("rect", {
     x: "3",
     y: "11",
@@ -3911,7 +4128,8 @@ const IconUnlock = _ref108 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3922,7 +4140,8 @@ const IconShoppingBack = _ref109 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref109;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3932,8 +4151,8 @@ const IconShoppingBack = _ref109 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M6 2L3 6v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V6l-3-4H6zM3.8 6h16.4M16 10a4 4 0 1 1-8 0"
   }));
@@ -3943,7 +4162,8 @@ const IconShoppingBack = _ref109 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3954,7 +4174,8 @@ const IconShoppingCart = _ref110 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref110;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -3964,8 +4185,8 @@ const IconShoppingCart = _ref110 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "10",
     cy: "20.5",
@@ -3983,7 +4204,8 @@ const IconShoppingCart = _ref110 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -3994,7 +4216,8 @@ const IconTag = _ref111 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref111;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4004,8 +4227,8 @@ const IconTag = _ref111 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
   }), /*#__PURE__*/_react.default.createElement("line", {
@@ -4020,7 +4243,8 @@ const IconTag = _ref111 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4031,7 +4255,8 @@ const IconMapMarket = _ref112 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref112;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4041,8 +4266,8 @@ const IconMapMarket = _ref112 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"
   }), /*#__PURE__*/_react.default.createElement("circle", {
@@ -4056,7 +4281,8 @@ const IconMapMarket = _ref112 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4067,7 +4293,8 @@ const IconMapMarket2 = _ref113 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref113;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4077,8 +4304,8 @@ const IconMapMarket2 = _ref113 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "10",
@@ -4092,7 +4319,8 @@ const IconMapMarket2 = _ref113 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4103,7 +4331,8 @@ const IconMapMarket3 = _ref114 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref114;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4113,8 +4342,8 @@ const IconMapMarket3 = _ref114 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "11.5",
     cy: "8.5",
@@ -4128,7 +4357,8 @@ const IconMapMarket3 = _ref114 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4139,7 +4369,8 @@ const IconCompass = _ref115 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref115;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4149,8 +4380,8 @@ const IconCompass = _ref115 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -4164,7 +4395,8 @@ const IconCompass = _ref115 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4175,7 +4407,8 @@ const IconHome = _ref116 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref116;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4185,8 +4418,8 @@ const IconHome = _ref116 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
   }), /*#__PURE__*/_react.default.createElement("polyline", {
@@ -4198,7 +4431,8 @@ const IconHome = _ref116 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4209,7 +4443,8 @@ const IconHome2 = _ref117 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref117;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4219,8 +4454,8 @@ const IconHome2 = _ref117 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M20 9v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -4232,7 +4467,8 @@ const IconHome2 = _ref117 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4243,7 +4479,8 @@ const IconInbox = _ref118 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref118;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4253,8 +4490,8 @@ const IconInbox = _ref118 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M21.5 12H16c-.7 2-2 3-4 3s-3.3-1-4-3H2.5"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -4266,7 +4503,8 @@ const IconInbox = _ref118 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4277,7 +4515,8 @@ const IconCreditCard = _ref119 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref119;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4287,8 +4526,8 @@ const IconCreditCard = _ref119 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("rect", {
     x: "2",
     y: "4",
@@ -4304,7 +4543,8 @@ const IconCreditCard = _ref119 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4315,7 +4555,8 @@ const IconPlay = _ref120 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref120;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4325,8 +4566,8 @@ const IconPlay = _ref120 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "5 3 19 12 5 21 5 3"
   }));
@@ -4336,7 +4577,8 @@ const IconPlay = _ref120 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4347,7 +4589,8 @@ const IconPause = _ref121 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref121;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4357,8 +4600,8 @@ const IconPause = _ref121 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("rect", {
     x: "6",
     y: "4",
@@ -4376,7 +4619,8 @@ const IconPause = _ref121 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4387,7 +4631,8 @@ const IconPlayCircle = _ref122 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref122;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4397,8 +4642,8 @@ const IconPlayCircle = _ref122 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -4412,7 +4657,8 @@ const IconPlayCircle = _ref122 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4423,7 +4669,8 @@ const IconPauseCircle = _ref123 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref123;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4433,8 +4680,8 @@ const IconPauseCircle = _ref123 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -4456,7 +4703,8 @@ const IconPauseCircle = _ref123 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4467,7 +4715,8 @@ const IconStopCircle = _ref124 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref124;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4477,8 +4726,8 @@ const IconStopCircle = _ref124 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
@@ -4495,7 +4744,8 @@ const IconStopCircle = _ref124 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4506,7 +4756,8 @@ const IconRewind = _ref125 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref125;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4516,8 +4767,8 @@ const IconRewind = _ref125 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "11 19 2 12 11 5 11 19"
   }), /*#__PURE__*/_react.default.createElement("polygon", {
@@ -4529,7 +4780,8 @@ const IconRewind = _ref125 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4540,7 +4792,8 @@ const IconFastForward = _ref126 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref126;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4550,8 +4803,8 @@ const IconFastForward = _ref126 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "13 19 22 12 13 5 13 19"
   }), /*#__PURE__*/_react.default.createElement("polygon", {
@@ -4563,7 +4816,8 @@ const IconFastForward = _ref126 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4574,7 +4828,8 @@ const IconSkipBack = _ref127 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref127;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4584,8 +4839,8 @@ const IconSkipBack = _ref127 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "19 20 9 12 19 4 19 20"
   }), /*#__PURE__*/_react.default.createElement("line", {
@@ -4600,7 +4855,8 @@ const IconSkipBack = _ref127 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4611,7 +4867,8 @@ const IconSkipForward = _ref128 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref128;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4621,8 +4878,8 @@ const IconSkipForward = _ref128 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "5 4 15 12 5 20 5 4"
   }), /*#__PURE__*/_react.default.createElement("line", {
@@ -4637,7 +4894,8 @@ const IconSkipForward = _ref128 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4648,7 +4906,8 @@ const IconVolume2 = _ref129 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref129;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4658,8 +4917,8 @@ const IconVolume2 = _ref129 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "11 5 6 9 2 9 2 15 6 15 11 19 11 5"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -4671,7 +4930,8 @@ const IconVolume2 = _ref129 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4682,7 +4942,8 @@ const IconVolume1 = _ref130 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref130;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4692,8 +4953,8 @@ const IconVolume1 = _ref130 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "11 5 6 9 2 9 2 15 6 15 11 19 11 5"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -4705,7 +4966,8 @@ const IconVolume1 = _ref130 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4716,7 +4978,8 @@ const IconVolumex = _ref131 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref131;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4726,8 +4989,8 @@ const IconVolumex = _ref131 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M11 5L6 9H2v6h4l5 4zM22 9l-6 6M16 9l6 6"
   }));
@@ -4737,7 +5000,8 @@ const IconVolumex = _ref131 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4748,7 +5012,8 @@ const IconVolume = _ref132 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref132;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4758,8 +5023,8 @@ const IconVolume = _ref132 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("polygon", {
     points: "11 5 6 9 2 9 2 15 6 15 11 19 11 5"
   }));
@@ -4769,7 +5034,8 @@ const IconVolume = _ref132 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4780,7 +5046,8 @@ const IconMusic = _ref133 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref133;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4790,8 +5057,8 @@ const IconMusic = _ref133 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "5.5",
     cy: "17.5",
@@ -4809,7 +5076,8 @@ const IconMusic = _ref133 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4820,7 +5088,8 @@ const IconVideoOff = _ref134 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref134;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4830,8 +5099,8 @@ const IconVideoOff = _ref134 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M2 2l19.8 19.8M15 15.7V17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h.3m5.4 0H13a2 2 0 0 1 2 2v3.3l1 1L22 7v10"
   }));
@@ -4841,7 +5110,8 @@ const IconVideoOff = _ref134 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4852,7 +5122,8 @@ const IconVideo = _ref135 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref135;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4862,8 +5133,8 @@ const IconVideo = _ref135 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M15.6 11.6L22 7v10l-6.4-4.5v-1zM4 5h9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2z"
   }));
@@ -4873,7 +5144,8 @@ const IconVideo = _ref135 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4884,7 +5156,8 @@ const IconCamera = _ref136 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref136;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4894,8 +5167,8 @@ const IconCamera = _ref136 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("g", {
     transform: "translate(2 3)"
   }, /*#__PURE__*/_react.default.createElement("path", {
@@ -4911,7 +5184,8 @@ const IconCamera = _ref136 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4922,7 +5196,8 @@ const IconMic = _ref137 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref137;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4932,8 +5207,8 @@ const IconMic = _ref137 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M12 2c-1.7 0-3 1.2-3 2.6v6.8c0 1.4 1.3 2.6 3 2.6s3-1.2 3-2.6V4.6C15 3.2 13.7 2 12 2z"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -4945,7 +5220,8 @@ const IconMic = _ref137 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -4956,7 +5232,8 @@ const IconFilm = _ref138 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref138;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -4966,8 +5243,8 @@ const IconFilm = _ref138 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("rect", {
     x: "2",
     y: "2",
@@ -5017,7 +5294,8 @@ const IconFilm = _ref138 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -5028,7 +5306,8 @@ const IconImage = _ref139 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref139;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -5038,8 +5317,8 @@ const IconImage = _ref139 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("rect", {
     x: "3",
     y: "3",
@@ -5059,7 +5338,8 @@ const IconImage = _ref139 => {
  * @params {color} set color icon
  * @params {size} set size icon
  * @params {weight} set weight icon
- * @params {style} set style icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
  */
 
 
@@ -5070,7 +5350,8 @@ const IconRadio = _ref140 => {
     color,
     size,
     weight,
-    style
+    lineCap,
+    lineJoin
   } = _ref140;
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -5080,8 +5361,8 @@ const IconRadio = _ref140 => {
     fill: "none",
     stroke: color ? color : COLOR,
     strokeWidth: weight ? weight : WEIGHT,
-    strokeLinecap: style ? style : STYLE,
-    strokeLinejoin: style ? style : STYLE
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
   }, /*#__PURE__*/_react.default.createElement("circle", {
     cx: "12",
     cy: "12",
