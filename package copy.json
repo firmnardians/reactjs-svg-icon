@@ -9,22 +9,32 @@
 		"dist",
 		"README.md"
 	],
+	"dependencies": {
+		"@babel/polyfill": "^7.12.1",
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-scripts": "4.0.3",
+		"web-vitals": "^1.0.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
 	"keywords": [
 		"icon",
 		"react",
-		"svg icon",
-		"react js icon"
+		"icon"
 	],
 	"author": "firmnardians",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/firmnardians/reactjs-svg-icon.git"
-	},
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
-		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -47,10 +57,6 @@
 	"devDependencies": {
 		"@babel/cli": "^7.15.7",
 		"@babel/core": "^7.15.8",
-		"@babel/polyfill": "^7.12.1",
-		"@babel/preset-env": "^7.15.8",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"react-scripts": "^4.0.3"
+		"@babel/preset-env": "^7.15.8"
 	}
 }
