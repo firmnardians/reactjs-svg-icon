@@ -3,8 +3,9 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.IconRefreshCCW = exports.IconRadio = exports.IconPlusSquare = exports.IconPlusCircle = exports.IconPlus = exports.IconPlayCircle = exports.IconPlay = exports.IconPauseCircle = exports.IconPause = exports.IconOctagon = exports.IconMusic = exports.IconMove = exports.IconMoreVertical = exports.IconMoreHorizontal = exports.IconMoon = exports.IconMinusSquare = exports.IconMinusCircle = exports.IconMinus = exports.IconMinimize2 = exports.IconMinimize = exports.IconMic = exports.IconMessageSquare = exports.IconMessageCircle = exports.IconMenu = exports.IconMaximize2 = exports.IconMaximize = exports.IconMapMarket3 = exports.IconMapMarket2 = exports.IconMapMarket = exports.IconMail = exports.IconLock = exports.IconLoader = exports.IconInfo = exports.IconInbox = exports.IconImage = exports.IconHome2 = exports.IconHome = exports.IconHexagon = exports.IconHelpCircle = exports.IconHeart = exports.IconGrid = exports.IconFlag = exports.IconFilm = exports.IconFastForward = exports.IconEye = exports.IconExternalLink = exports.IconExpand = exports.IconEdit3 = exports.IconEdit2 = exports.IconEdit = exports.IconDownloadCloud = exports.IconDownload = exports.IconCreditCard = exports.IconCornerUpRight = exports.IconCornerUpLeft = exports.IconCornerRightUp = exports.IconCornerRightDown = exports.IconCornerLeftUp = exports.IconCornerLeftDown = exports.IconCornerDownRight = exports.IconCornerDownLeft = exports.IconCompass = exports.IconClock = exports.IconCircle = exports.IconChevronsUp = exports.IconChevronsRight = exports.IconChevronsLeft = exports.IconChevronsDown = exports.IconChevronUp = exports.IconChevronRight = exports.IconChevronLeft = exports.IconChevronDown = exports.IconCheckSquare = exports.IconCheckCircle = exports.IconCheck = exports.IconCamera = exports.IconCalendar = exports.IconBookmark = exports.IconBell = exports.IconArrowUpRight = exports.IconArrowUpLeft = exports.IconArrowUpCircle = exports.IconArrowUp = exports.IconArrowRightCircle = exports.IconArrowRight = exports.IconArrowOutSquare = exports.IconArrowOutCircle = exports.IconArrowOut = exports.IconArrowLeftCircle = exports.IconArrowLeft = exports.IconArrowInSquare = exports.IconArrowInCircle = exports.IconArrowIn = exports.IconArrowDownRight = exports.IconArrowDownLeft = exports.IconArrowDownCircle = exports.IconArrowDown = exports.IconAlertTriangle = exports.IconAlertOctagon = exports.IconAlertCircle = void 0;
-exports.IconZoomOut = exports.IconZoomIn = exports.IconXSquare = exports.IconXCircle = exports.IconX = exports.IconVolumex = exports.IconVolume2 = exports.IconVolume1 = exports.IconVolume = exports.IconVideoOff = exports.IconVideo = exports.IconUploadCloud = exports.IconUpload = exports.IconUnlock = exports.IconTriangle = exports.IconTrendingUp = exports.IconTrendingDown = exports.IconTrash = exports.IconThumbsUp = exports.IconThumbsDown = exports.IconTag = exports.IconSun = exports.IconStopCircle = exports.IconStar = exports.IconSquare = exports.IconSliders = exports.IconSlash = exports.IconSkipForward = exports.IconSkipBack = exports.IconShuffle = exports.IconShoppingCart = exports.IconShoppingBack = exports.IconShare = exports.IconSetting = exports.IconSearch = exports.IconRotateRight = exports.IconRotateLeft = exports.IconRewind = exports.IconRepeat = exports.IconRefreshCW = exports.IconRefreshCCW = exports.IconRadio = exports.IconPlusSquare = exports.IconPlusCircle = exports.IconPlus = exports.IconPlayCircle = exports.IconPlay = exports.IconPauseCircle = exports.IconPause = exports.IconOctagon = exports.IconMusic = exports.IconMove = exports.IconMoreVertical = exports.IconMoreHorizontal = exports.IconMoon = exports.IconMinusSquare = exports.IconMinusCircle = exports.IconMinus = exports.IconMinimize2 = exports.IconMinimize = exports.IconMic = exports.IconMessageSquare = exports.IconMessageCircle = exports.IconMenu = exports.IconMaximize2 = exports.IconMaximize = exports.IconMapMarket3 = exports.IconMapMarket2 = exports.IconMapMarket = exports.IconMail = exports.IconLock = exports.IconLoader = exports.IconInfo = exports.IconInbox = exports.IconImage = exports.IconHome2 = exports.IconHome = exports.IconHexagon = exports.IconHelpCircle = exports.IconHeart = exports.IconGrid = exports.IconFlag = exports.IconFilm = exports.IconFastForward = exports.IconEye = exports.IconExternalLink = exports.IconExpand = exports.IconEdit3 = exports.IconEdit2 = exports.IconEdit = exports.IconDownloadCloud = exports.IconDownload = exports.IconCreditCard = exports.IconCornerUpRight = exports.IconCornerUpLeft = exports.IconCornerRightUp = exports.IconCornerRightDown = exports.IconCornerLeftUp = exports.IconCornerLeftDown = exports.IconCornerDownRight = exports.IconCornerDownLeft = exports.IconCompass = exports.IconClock = exports.IconCircle = exports.IconChevronsUp = exports.IconChevronsRight = exports.IconChevronsLeft = exports.IconChevronsDown = exports.IconChevronUp = exports.IconChevronRight = exports.IconChevronLeft = exports.IconChevronDown = exports.IconCheckSquare = exports.IconCheckCircle = exports.IconCheck = exports.IconCamera = exports.IconCalendar = exports.IconBookmark = exports.IconBell = exports.IconArrowUpRight = exports.IconArrowUpLeft = exports.IconArrowUpCircle = exports.IconArrowUp = exports.IconArrowRightCircle = exports.IconArrowRight = exports.IconArrowOutSquare = exports.IconArrowOutCircle = exports.IconArrowOut = exports.IconArrowLeftCircle = exports.IconArrowLeft = exports.IconArrowInSquare = exports.IconArrowInCircle = exports.IconArrowIn = exports.IconArrowDownRight = exports.IconArrowDownLeft = exports.IconArrowDownCircle = exports.IconArrowDown = exports.IconAlertTriangle = exports.IconAlertOctagon = exports.IconAlertCircle = void 0;
+exports.IconHash = exports.IconHardDrive = exports.IconGrid = exports.IconFolderX2 = exports.IconFolderX = exports.IconFolderPlus2 = exports.IconFolderPlus = exports.IconFolderMinus2 = exports.IconFolderMinus = exports.IconFolder = exports.IconFlag = exports.IconFilm = exports.IconFileX2 = exports.IconFileX = exports.IconFileText = exports.IconFilePlus2 = exports.IconFilePlus = exports.IconFileMinus2 = exports.IconFileMinus = exports.IconFile = exports.IconFastForward = exports.IconFacebook = exports.IconEye = exports.IconExternalLink = exports.IconExpand = exports.IconEdit3 = exports.IconEdit2 = exports.IconEdit = exports.IconDownloadCloud = exports.IconDownload = exports.IconDollarSign = exports.IconDisc = exports.IconDelete = exports.IconDatabase = exports.IconCreditCard = exports.IconCpu = exports.IconCornerUpRight = exports.IconCornerUpLeft = exports.IconCornerRightUp = exports.IconCornerRightDown = exports.IconCornerLeftUp = exports.IconCornerLeftDown = exports.IconCornerDownRight = exports.IconCornerDownLeft = exports.IconCopy = exports.IconCompass = exports.IconCommand = exports.IconCode = exports.IconClock = exports.IconClipboard = exports.IconCircle = exports.IconChevronsUp = exports.IconChevronsRight = exports.IconChevronsLeft = exports.IconChevronsDown = exports.IconChevronUp = exports.IconChevronRight = exports.IconChevronLeft = exports.IconChevronDown = exports.IconCheckSquare = exports.IconCheckCircle = exports.IconCheck = exports.IconCast = exports.IconCamera = exports.IconCalendar = exports.IconBookmark = exports.IconBold = exports.IconBluetooth = exports.IconBell = exports.IconBarChart4 = exports.IconBarChart3 = exports.IconBarChart2 = exports.IconBarChart = exports.IconAtSign = exports.IconArrowUpRight = exports.IconArrowUpLeft = exports.IconArrowUpCircle = exports.IconArrowUp = exports.IconArrowRightCircle = exports.IconArrowRight = exports.IconArrowOutSquare = exports.IconArrowOutCircle = exports.IconArrowOut = exports.IconArrowLeftCircle = exports.IconArrowLeft = exports.IconArrowInSquare = exports.IconArrowInCircle = exports.IconArrowIn = exports.IconArrowDownRight = exports.IconArrowDownLeft = exports.IconArrowDownCircle = exports.IconArrowDown = exports.IconAlignRight = exports.IconAlignLeft = exports.IconAlignJustify = exports.IconAlignCenter = exports.IconAlertTriangle = exports.IconAlertOctagon = exports.IconAlertCircle = exports.IconAirPlay = void 0;
+exports.IconTv = exports.IconTriangle = exports.IconTrendingUp = exports.IconTrendingDown = exports.IconTrash = exports.IconThumbsUp = exports.IconThumbsDown = exports.IconTag = exports.IconTablet = exports.IconTable2 = exports.IconTable = exports.IconSun = exports.IconStrikethrough = exports.IconStopCircle = exports.IconStar = exports.IconSquare = exports.IconSpeaker = exports.IconSmartphone = exports.IconSliders = exports.IconSlash = exports.IconSkipForward = exports.IconSkipBack = exports.IconShuffle = exports.IconShoppingCart = exports.IconShoppingBack = exports.IconShare = exports.IconSetting = exports.IconServer = exports.IconSearch = exports.IconScissors = exports.IconSave = exports.IconRss = exports.IconRotateRight = exports.IconRotateLeft = exports.IconRewind = exports.IconRepeat = exports.IconRefreshCW = exports.IconRefreshCCW = exports.IconRadio = exports.IconPrinter = exports.IconPower = exports.IconPlusSquare = exports.IconPlusCircle = exports.IconPlus = exports.IconPlayCircle = exports.IconPlay = exports.IconPieChart5 = exports.IconPieChart4 = exports.IconPieChart3 = exports.IconPieChart2 = exports.IconPieChart = exports.IconPhone = exports.IconPercent = exports.IconPauseCircle = exports.IconPause = exports.IconPaperclip = exports.IconOctagon = exports.IconMusic = exports.IconMove = exports.IconMoreVertical = exports.IconMoreHorizontal = exports.IconMoon = exports.IconMonitor = exports.IconMinusSquare = exports.IconMinusCircle = exports.IconMinus = exports.IconMinimize2 = exports.IconMinimize = exports.IconMic = exports.IconMessageSquare = exports.IconMessageCircle = exports.IconMenu = exports.IconMaximize2 = exports.IconMaximize = exports.IconMapMarket3 = exports.IconMapMarket2 = exports.IconMapMarket = exports.IconMail = exports.IconLock = exports.IconLoader = exports.IconList = exports.IconLink = exports.IconLineChart2 = exports.IconLineChart = exports.IconLayout6 = exports.IconLayout5 = exports.IconLayout4 = exports.IconLayout3 = exports.IconLayout2 = exports.IconLayout = exports.IconItalic = exports.IconInfo = exports.IconInbox = exports.IconImage = exports.IconHome2 = exports.IconHome = exports.IconHexagon = exports.IconHelpCircle = exports.IconHeart = exports.IconHeadphones = exports.IconHash = exports.IconHardDrive = exports.IconGrid = exports.IconFolderX2 = exports.IconFolderX = exports.IconFolderPlus2 = exports.IconFolderPlus = exports.IconFolderMinus2 = exports.IconFolderMinus = exports.IconFolder = exports.IconFlag = exports.IconFilm = exports.IconFileX2 = exports.IconFileX = exports.IconFileText = exports.IconFilePlus2 = exports.IconFilePlus = exports.IconFileMinus2 = exports.IconFileMinus = exports.IconFile = exports.IconFastForward = exports.IconFacebook = exports.IconEye = exports.IconExternalLink = exports.IconExpand = exports.IconEdit3 = exports.IconEdit2 = exports.IconEdit = exports.IconDownloadCloud = exports.IconDownload = exports.IconDollarSign = exports.IconDisc = exports.IconDelete = exports.IconDatabase = exports.IconCreditCard = exports.IconCpu = exports.IconCornerUpRight = exports.IconCornerUpLeft = exports.IconCornerRightUp = exports.IconCornerRightDown = exports.IconCornerLeftUp = exports.IconCornerLeftDown = exports.IconCornerDownRight = exports.IconCornerDownLeft = exports.IconCopy = exports.IconCompass = exports.IconCommand = exports.IconCode = exports.IconClock = exports.IconClipboard = exports.IconCircle = exports.IconChevronsUp = exports.IconChevronsRight = exports.IconChevronsLeft = exports.IconChevronsDown = exports.IconChevronUp = exports.IconChevronRight = exports.IconChevronLeft = exports.IconChevronDown = exports.IconCheckSquare = exports.IconCheckCircle = exports.IconCheck = exports.IconCast = exports.IconCamera = exports.IconCalendar = exports.IconBookmark = exports.IconBold = exports.IconBluetooth = exports.IconBell = exports.IconBarChart4 = exports.IconBarChart3 = exports.IconBarChart2 = exports.IconBarChart = exports.IconAtSign = exports.IconArrowUpRight = exports.IconArrowUpLeft = exports.IconArrowUpCircle = exports.IconArrowUp = exports.IconArrowRightCircle = exports.IconArrowRight = exports.IconArrowOutSquare = exports.IconArrowOutCircle = exports.IconArrowOut = exports.IconArrowLeftCircle = exports.IconArrowLeft = exports.IconArrowInSquare = exports.IconArrowInCircle = exports.IconArrowIn = exports.IconArrowDownRight = exports.IconArrowDownLeft = exports.IconArrowDownCircle = exports.IconArrowDown = exports.IconAlignRight = exports.IconAlignLeft = exports.IconAlignJustify = exports.IconAlignCenter = exports.IconAlertTriangle = exports.IconAlertOctagon = exports.IconAlertCircle = exports.IconAirPlay = void 0;
+exports.IconZoomOut = exports.IconZoomIn = exports.IconXSquare = exports.IconXCircle = exports.IconX = exports.IconWifi = exports.IconWatch = exports.IconVolumex = exports.IconVolume2 = exports.IconVolume1 = exports.IconVolume = exports.IconVideoOff = exports.IconVideo = exports.IconUserx = exports.IconUsers = exports.IconUserPlus = exports.IconUserMinus = exports.IconUserCircle = exports.IconUserCheck = exports.IconUser = exports.IconUploadCloud = exports.IconUpload = exports.IconUnlock = exports.IconUnderline = exports.IconType = exports.IconTwitter = exports.IconTv = exports.IconTriangle = exports.IconTrendingUp = exports.IconTrendingDown = exports.IconTrash = exports.IconThumbsUp = exports.IconThumbsDown = exports.IconTag = exports.IconTablet = exports.IconTable2 = exports.IconTable = exports.IconSun = exports.IconStrikethrough = exports.IconStopCircle = exports.IconStar = exports.IconSquare = exports.IconSpeaker = exports.IconSmartphone = exports.IconSliders = exports.IconSlash = exports.IconSkipForward = exports.IconSkipBack = exports.IconShuffle = exports.IconShoppingCart = exports.IconShoppingBack = exports.IconShare = exports.IconSetting = exports.IconServer = exports.IconSearch = exports.IconScissors = exports.IconSave = exports.IconRss = exports.IconRotateRight = exports.IconRotateLeft = exports.IconRewind = exports.IconRepeat = exports.IconRefreshCW = exports.IconRefreshCCW = exports.IconRadio = exports.IconPrinter = exports.IconPower = exports.IconPlusSquare = exports.IconPlusCircle = exports.IconPlus = exports.IconPlayCircle = exports.IconPlay = exports.IconPieChart5 = exports.IconPieChart4 = exports.IconPieChart3 = exports.IconPieChart2 = exports.IconPieChart = exports.IconPhone = exports.IconPercent = exports.IconPauseCircle = exports.IconPause = exports.IconPaperclip = exports.IconOctagon = exports.IconMusic = exports.IconMove = exports.IconMoreVertical = exports.IconMoreHorizontal = exports.IconMoon = exports.IconMonitor = exports.IconMinusSquare = exports.IconMinusCircle = exports.IconMinus = exports.IconMinimize2 = exports.IconMinimize = exports.IconMic = exports.IconMessageSquare = exports.IconMessageCircle = exports.IconMenu = exports.IconMaximize2 = exports.IconMaximize = exports.IconMapMarket3 = exports.IconMapMarket2 = exports.IconMapMarket = exports.IconMail = exports.IconLock = exports.IconLoader = exports.IconList = exports.IconLink = exports.IconLineChart2 = exports.IconLineChart = exports.IconLayout6 = exports.IconLayout5 = exports.IconLayout4 = exports.IconLayout3 = exports.IconLayout2 = exports.IconLayout = exports.IconItalic = exports.IconInfo = exports.IconInbox = exports.IconImage = exports.IconHome2 = exports.IconHome = exports.IconHexagon = exports.IconHelpCircle = exports.IconHeart = exports.IconHeadphones = exports.IconHash = exports.IconHardDrive = exports.IconGrid = exports.IconFolderX2 = exports.IconFolderX = exports.IconFolderPlus2 = exports.IconFolderPlus = exports.IconFolderMinus2 = exports.IconFolderMinus = exports.IconFolder = exports.IconFlag = exports.IconFilm = exports.IconFileX2 = exports.IconFileX = exports.IconFileText = exports.IconFilePlus2 = exports.IconFilePlus = exports.IconFileMinus2 = exports.IconFileMinus = exports.IconFile = exports.IconFastForward = exports.IconFacebook = exports.IconEye = exports.IconExternalLink = exports.IconExpand = exports.IconEdit3 = exports.IconEdit2 = exports.IconEdit = exports.IconDownloadCloud = exports.IconDownload = exports.IconDollarSign = exports.IconDisc = exports.IconDelete = exports.IconDatabase = exports.IconCreditCard = exports.IconCpu = exports.IconCornerUpRight = exports.IconCornerUpLeft = exports.IconCornerRightUp = exports.IconCornerRightDown = exports.IconCornerLeftUp = exports.IconCornerLeftDown = exports.IconCornerDownRight = exports.IconCornerDownLeft = exports.IconCopy = exports.IconCompass = exports.IconCommand = exports.IconCode = exports.IconClock = exports.IconClipboard = exports.IconCircle = exports.IconChevronsUp = exports.IconChevronsRight = exports.IconChevronsLeft = exports.IconChevronsDown = exports.IconChevronUp = exports.IconChevronRight = exports.IconChevronLeft = exports.IconChevronDown = exports.IconCheckSquare = exports.IconCheckCircle = exports.IconCheck = exports.IconCast = exports.IconCamera = exports.IconCalendar = exports.IconBookmark = exports.IconBold = exports.IconBluetooth = exports.IconBell = exports.IconBarChart4 = exports.IconBarChart3 = exports.IconBarChart2 = exports.IconBarChart = exports.IconAtSign = exports.IconArrowUpRight = exports.IconArrowUpLeft = exports.IconArrowUpCircle = exports.IconArrowUp = exports.IconArrowRightCircle = exports.IconArrowRight = exports.IconArrowOutSquare = exports.IconArrowOutCircle = exports.IconArrowOut = exports.IconArrowLeftCircle = exports.IconArrowLeft = exports.IconArrowInSquare = exports.IconArrowInCircle = exports.IconArrowIn = exports.IconArrowDownRight = exports.IconArrowDownLeft = exports.IconArrowDownCircle = exports.IconArrowDown = exports.IconAlignRight = exports.IconAlignLeft = exports.IconAlignJustify = exports.IconAlignCenter = exports.IconAlertTriangle = exports.IconAlertOctagon = exports.IconAlertCircle = exports.IconAirPlay = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -5372,5 +5373,3441 @@ const IconRadio = _ref140 => {
     d: "M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"
   }));
 };
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
 
 exports.IconRadio = IconRadio;
+
+const IconFile = _ref141 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref141;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M13 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V9l-7-7z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M13 3v6h6"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFile = IconFile;
+
+const IconFileText = _ref142 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref142;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 3v5h5M16 13H8M16 17H8M10 9H8"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFileText = IconFileText;
+
+const IconFilePlus = _ref143 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref143;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 3v5h5M12 18v-6M9 15h6"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFilePlus = IconFilePlus;
+
+const IconFileMinus = _ref144 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref144;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 3v5h5M9 15h6"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFileMinus = IconFileMinus;
+
+const IconFileX = _ref145 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref145;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 3v5h5M9.9 17.1L14 13M9.9 12.9L14 17"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFileX = IconFileX;
+
+const IconFilePlus2 = _ref146 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref146;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M20 11.08V8l-6-6H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h6"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 3v5h5M18 21v-6M15 18h6"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFilePlus2 = IconFilePlus2;
+
+const IconFileMinus2 = _ref147 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref147;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M20 11.08V8l-6-6H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h6"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 3v5h5M15 18h6"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFileMinus2 = IconFileMinus2;
+
+const IconFileX2 = _ref148 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref148;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M20 11.08V8l-6-6H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h6"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 3v5h5M15.88 20.12l4.24-4.24M15.88 15.88l4.24 4.24"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFileX2 = IconFileX2;
+
+const IconFolder = _ref149 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref149;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFolder = IconFolder;
+
+const IconFolderPlus = _ref150 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref150;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "11",
+    x2: "12",
+    y2: "17"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "9",
+    y1: "14",
+    x2: "15",
+    y2: "14"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFolderPlus = IconFolderPlus;
+
+const IconFolderMinus = _ref151 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref151;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "9",
+    y1: "14",
+    x2: "15",
+    y2: "14"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFolderMinus = IconFolderMinus;
+
+const IconFolderX = _ref152 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref152;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h5l2 3h9a2 2 0 0 1 2 2v11zM9.9 16.1L14 12M9.9 11.9L14 16"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFolderX = IconFolderX;
+
+const IconFolderPlus2 = _ref153 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref153;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M11 21H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h5l2 3h9a2 2 0 0 1 2 2v2M19 15v6M16 18h6"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFolderPlus2 = IconFolderPlus2;
+
+const IconFolderMinus2 = _ref154 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref154;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M11 21H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h5l2 3h9a2 2 0 0 1 2 2v2M16 18h6"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFolderMinus2 = IconFolderMinus2;
+
+const IconFolderX2 = _ref155 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref155;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M11 21H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h5l2 3h9a2 2 0 0 1 2 2v2M21.12 15.88l-4.24 4.24M16.88 15.88l4.24 4.24"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFolderX2 = IconFolderX2;
+
+const IconLayout = _ref156 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref156;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "3",
+    y: "3",
+    width: "18",
+    height: "18",
+    rx: "2"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M3 9h18M9 21V9"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconLayout = IconLayout;
+
+const IconLayout2 = _ref157 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref157;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "3",
+    y: "3",
+    width: "18",
+    height: "18",
+    rx: "2"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M3 9h18M15 21V9"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconLayout2 = IconLayout2;
+
+const IconLayout3 = _ref158 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref158;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "3",
+    y: "3",
+    width: "18",
+    height: "18",
+    rx: "2"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M3 9h18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconLayout3 = IconLayout3;
+
+const IconLayout4 = _ref159 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref159;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "3",
+    y: "3",
+    width: "18",
+    height: "18",
+    rx: "2"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M3 15h18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconLayout4 = IconLayout4;
+
+const IconLayout5 = _ref160 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref160;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "3",
+    y: "3",
+    width: "18",
+    height: "18",
+    rx: "2"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M9 3v18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconLayout5 = IconLayout5;
+
+const IconLayout6 = _ref161 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref161;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "3",
+    y: "3",
+    width: "18",
+    height: "18",
+    rx: "2"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M15 3v18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconLayout6 = IconLayout6;
+
+const IconFacebook = _ref162 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref162;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconFacebook = IconFacebook;
+
+const IconTwitter = _ref163 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref163;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconTwitter = IconTwitter;
+
+const IconMonitor = _ref164 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref164;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "2",
+    y: "3",
+    width: "20",
+    height: "14",
+    rx: "2",
+    ry: "2"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "8",
+    y1: "21",
+    x2: "16",
+    y2: "21"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "17",
+    x2: "12",
+    y2: "21"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconMonitor = IconMonitor;
+
+const IconSmartphone = _ref165 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref165;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "5",
+    y: "2",
+    width: "14",
+    height: "20",
+    rx: "2",
+    ry: "2"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "18",
+    x2: "12.01",
+    y2: "18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconSmartphone = IconSmartphone;
+
+const IconTablet = _ref166 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref166;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "4",
+    y: "2",
+    width: "16",
+    height: "20",
+    rx: "2",
+    ry: "2"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "18",
+    x2: "12.01",
+    y2: "18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconTablet = IconTablet;
+
+const IconSpeaker = _ref167 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref167;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "4",
+    y: "2",
+    width: "16",
+    height: "20",
+    rx: "2",
+    ry: "2"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "12",
+    cy: "14",
+    r: "4"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "6",
+    x2: "12.01",
+    y2: "6"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconSpeaker = IconSpeaker;
+
+const IconHeadphones = _ref168 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref168;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M3 18v-6a9 9 0 0 1 18 0v6"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconHeadphones = IconHeadphones;
+
+const IconTv = _ref169 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref169;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "2",
+    y: "7",
+    width: "20",
+    height: "15",
+    rx: "2",
+    ry: "2"
+  }), /*#__PURE__*/_react.default.createElement("polyline", {
+    points: "17 2 12 7 7 2"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconTv = IconTv;
+
+const IconWatch = _ref170 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref170;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "7"
+  }), /*#__PURE__*/_react.default.createElement("polyline", {
+    points: "12 9 12 12 13.5 13.5"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M16.51 17.35l-.35 3.83a2 2 0 0 1-2 1.82H9.83a2 2 0 0 1-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 0 1 9.83 1h4.35a2 2 0 0 1 2 1.82l.35 3.83"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconWatch = IconWatch;
+
+const IconHardDrive = _ref171 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref171;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("line", {
+    x1: "22",
+    y1: "12",
+    x2: "2",
+    y2: "12"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "6",
+    y1: "16",
+    x2: "6",
+    y2: "16"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "10",
+    y1: "16",
+    x2: "10",
+    y2: "16"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconHardDrive = IconHardDrive;
+
+const IconDatabase = _ref172 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref172;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("ellipse", {
+    cx: "12",
+    cy: "5",
+    rx: "9",
+    ry: "3"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconDatabase = IconDatabase;
+
+const IconPhone = _ref173 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref173;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconPhone = IconPhone;
+
+const IconPrinter = _ref174 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref174;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("polyline", {
+    points: "6 9 6 2 18 2 18 9"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"
+  }), /*#__PURE__*/_react.default.createElement("rect", {
+    x: "6",
+    y: "14",
+    width: "12",
+    height: "8"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconPrinter = IconPrinter;
+
+const IconServer = _ref175 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref175;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "2",
+    y: "2",
+    width: "20",
+    height: "8",
+    rx: "2",
+    ry: "2"
+  }), /*#__PURE__*/_react.default.createElement("rect", {
+    x: "2",
+    y: "14",
+    width: "20",
+    height: "8",
+    rx: "2",
+    ry: "2"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "6",
+    y1: "6",
+    x2: "6.01",
+    y2: "6"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "6",
+    y1: "18",
+    x2: "6.01",
+    y2: "18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconServer = IconServer;
+
+const IconCpu = _ref176 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref176;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "4",
+    y: "4",
+    width: "16",
+    height: "16",
+    rx: "2",
+    ry: "2"
+  }), /*#__PURE__*/_react.default.createElement("rect", {
+    x: "9",
+    y: "9",
+    width: "6",
+    height: "6"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "9",
+    y1: "1",
+    x2: "9",
+    y2: "4"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "15",
+    y1: "1",
+    x2: "15",
+    y2: "4"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "9",
+    y1: "20",
+    x2: "9",
+    y2: "23"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "15",
+    y1: "20",
+    x2: "15",
+    y2: "23"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "20",
+    y1: "9",
+    x2: "23",
+    y2: "9"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "20",
+    y1: "14",
+    x2: "23",
+    y2: "14"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "1",
+    y1: "9",
+    x2: "4",
+    y2: "9"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "1",
+    y1: "14",
+    x2: "4",
+    y2: "14"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconCpu = IconCpu;
+
+const IconDisc = _ref177 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref177;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "10"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "3"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconDisc = IconDisc;
+
+const IconBarChart = _ref178 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref178;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "20",
+    x2: "12",
+    y2: "10"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "18",
+    y1: "20",
+    x2: "18",
+    y2: "4"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "6",
+    y1: "20",
+    x2: "6",
+    y2: "16"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconBarChart = IconBarChart;
+
+const IconBarChart2 = _ref179 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref179;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("line", {
+    x1: "18",
+    y1: "20",
+    x2: "18",
+    y2: "10"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "20",
+    x2: "12",
+    y2: "4"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "6",
+    y1: "20",
+    x2: "6",
+    y2: "14"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconBarChart2 = IconBarChart2;
+
+const IconBarChart3 = _ref180 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref180;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M12 20V10M6 20V4M18 20v-4"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconBarChart3 = IconBarChart3;
+
+const IconBarChart4 = _ref181 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref181;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M12 20v-6M6 20V10M18 20V4"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconBarChart4 = IconBarChart4;
+
+const IconPieChart = _ref182 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref182;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M21.21 15.89A10 10 0 1 1 8 2.83"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M22 12A10 10 0 0 0 12 2v10z"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconPieChart = IconPieChart;
+
+const IconPieChart2 = _ref183 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref183;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M12 2a10 10 0 1 0 10 10H12V2zM21.18 8.02c-1-2.3-2.85-4.17-5.16-5.18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconPieChart2 = IconPieChart2;
+
+const IconPieChart3 = _ref184 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref184;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M19 6l-7 6V2.5"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconPieChart3 = IconPieChart3;
+
+const IconPieChart4 = _ref185 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref185;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M21.5 12H12V2.5"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "10"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconPieChart4 = IconPieChart4;
+
+const IconPieChart5 = _ref186 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref186;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M18.6 18.6L12 12V2.5"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "10"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconPieChart5 = IconPieChart5;
+
+const IconLineChart = _ref187 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref187;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M3 3v18h18"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconLineChart = IconLineChart;
+
+const IconLineChart2 = _ref188 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref188;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M3 3v18h18"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M18.7 14.3L15 10.5l-2.7 2.7L7 8"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconLineChart2 = IconLineChart2;
+
+const IconUserCircle = _ref189 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref189;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M5.52 19c.64-2.2 1.84-3 3.22-3h6.52c1.38 0 2.58.8 3.22 3"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "12",
+    cy: "10",
+    r: "3"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "10"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconUserCircle = IconUserCircle;
+
+const IconUsers = _ref190 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref190;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "9",
+    cy: "7",
+    r: "4"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M23 21v-2a4 4 0 0 0-3-3.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M16 3.13a4 4 0 0 1 0 7.75"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconUsers = IconUsers;
+
+const IconUserx = _ref191 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref191;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "8.5",
+    cy: "7",
+    r: "4"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "18",
+    y1: "8",
+    x2: "23",
+    y2: "13"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "23",
+    y1: "8",
+    x2: "18",
+    y2: "13"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconUserx = IconUserx;
+
+const IconUserPlus = _ref192 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref192;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "8.5",
+    cy: "7",
+    r: "4"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "20",
+    y1: "8",
+    x2: "20",
+    y2: "14"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "23",
+    y1: "11",
+    x2: "17",
+    y2: "11"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconUserPlus = IconUserPlus;
+
+const IconUserMinus = _ref193 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref193;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "8.5",
+    cy: "7",
+    r: "4"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "23",
+    y1: "11",
+    x2: "17",
+    y2: "11"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconUserMinus = IconUserMinus;
+
+const IconUserCheck = _ref194 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref194;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "8.5",
+    cy: "7",
+    r: "4"
+  }), /*#__PURE__*/_react.default.createElement("polyline", {
+    points: "17 11 19 13 23 9"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconUserCheck = IconUserCheck;
+
+const IconUser = _ref195 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref195;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "12",
+    cy: "7",
+    r: "4"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconUser = IconUser;
+
+const IconAtSign = _ref196 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref196;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "4"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconAtSign = IconAtSign;
+
+const IconPercent = _ref197 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref197;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("line", {
+    x1: "19",
+    y1: "5",
+    x2: "5",
+    y2: "19"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "6.5",
+    cy: "6.5",
+    r: "2.5"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "17.5",
+    cy: "17.5",
+    r: "2.5"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconPercent = IconPercent;
+
+const IconDollarSign = _ref198 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref198;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "1",
+    x2: "12",
+    y2: "23"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconDollarSign = IconDollarSign;
+
+const IconBluetooth = _ref199 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref199;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("polyline", {
+    points: "6.5 6.5 17.5 17.5 12 23 12 1 17.5 6.5 6.5 17.5"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconBluetooth = IconBluetooth;
+
+const IconHash = _ref200 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref200;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("line", {
+    x1: "4",
+    y1: "9",
+    x2: "20",
+    y2: "9"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "4",
+    y1: "15",
+    x2: "20",
+    y2: "15"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "10",
+    y1: "3",
+    x2: "8",
+    y2: "21"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "16",
+    y1: "3",
+    x2: "14",
+    y2: "21"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconHash = IconHash;
+
+const IconPower = _ref201 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref201;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M18.36 6.64a9 9 0 1 1-12.73 0"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "2",
+    x2: "12",
+    y2: "12"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconPower = IconPower;
+
+const IconCommand = _ref202 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref202;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconCommand = IconCommand;
+
+const IconRss = _ref203 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref203;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M4 11a9 9 0 0 1 9 9"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M4 4a16 16 0 0 1 16 16"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "5",
+    cy: "19",
+    r: "1"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconRss = IconRss;
+
+const IconAirPlay = _ref204 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref204;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"
+  }), /*#__PURE__*/_react.default.createElement("polygon", {
+    points: "12 15 17 21 7 21 12 15"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconAirPlay = IconAirPlay;
+
+const IconCast = _ref205 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref205;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "2",
+    y1: "20",
+    x2: "2.01",
+    y2: "20"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconCast = IconCast;
+
+const IconWifi = _ref206 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref206;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M5 12.55a11 11 0 0 1 14.08 0"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M1.42 9a16 16 0 0 1 21.16 0"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M8.53 16.11a6 6 0 0 1 6.95 0"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "20",
+    x2: "12.01",
+    y2: "20"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconWifi = IconWifi;
+
+const IconBold = _ref207 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref207;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M6 4h8a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M6 12h9a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconBold = IconBold;
+
+const IconUnderline = _ref208 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref208;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M6 3v7a6 6 0 0 0 6 6 6 6 0 0 0 6-6V3"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "4",
+    y1: "21",
+    x2: "20",
+    y2: "21"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconUnderline = IconUnderline;
+
+const IconItalic = _ref209 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref209;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M19 4h-9M14 20H5M14.7 4.7L9.2 19.4"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconItalic = IconItalic;
+
+const IconStrikethrough = _ref210 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref210;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M17.3 4.9c-2.3-.6-4.4-1-6.2-.9-2.7 0-5.3.7-5.3 3.6 0 1.5 1.8 3.3 3.6 3.9h.2m8.2 3.7c.3.4.4.8.4 1.3 0 2.9-2.7 3.6-6.2 3.6-2.3 0-4.4-.3-6.2-.9M4 11.5h16"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconStrikethrough = IconStrikethrough;
+
+const IconType = _ref211 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref211;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("polyline", {
+    points: "4 7 4 4 20 4 20 7"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "9",
+    y1: "20",
+    x2: "15",
+    y2: "20"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "4",
+    x2: "12",
+    y2: "20"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconType = IconType;
+
+const IconAlignLeft = _ref212 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref212;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M17 9.5H3M21 4.5H3M21 14.5H3M17 19.5H3"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconAlignLeft = IconAlignLeft;
+
+const IconAlignCenter = _ref213 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref213;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M19 9.5H5M21 4.5H3M21 14.5H3M19 19.5H5"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconAlignCenter = IconAlignCenter;
+
+const IconAlignRight = _ref214 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref214;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M21 9.5H7M21 4.5H3M21 14.5H3M21 19.5H7"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconAlignRight = IconAlignRight;
+
+const IconAlignJustify = _ref215 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref215;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M21 9.5H3M21 4.5H3M21 14.5H3M21 19.5H3"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconAlignJustify = IconAlignJustify;
+
+const IconTable = _ref216 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref216;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "3",
+    y: "3",
+    width: "18",
+    height: "18",
+    rx: "2"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M21 12H3M12 3v18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconTable = IconTable;
+
+const IconTable2 = _ref217 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref217;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M3 3h18v18H3zM21 9H3M21 15H3M12 3v18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconTable2 = IconTable2;
+
+const IconList = _ref218 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref218;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("line", {
+    x1: "8",
+    y1: "6",
+    x2: "21",
+    y2: "6"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "8",
+    y1: "12",
+    x2: "21",
+    y2: "12"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "8",
+    y1: "18",
+    x2: "21",
+    y2: "18"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "3",
+    y1: "6",
+    x2: "3.01",
+    y2: "6"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "3",
+    y1: "12",
+    x2: "3.01",
+    y2: "12"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "3",
+    y1: "18",
+    x2: "3.01",
+    y2: "18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconList = IconList;
+
+const IconSave = _ref219 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref219;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"
+  }), /*#__PURE__*/_react.default.createElement("polyline", {
+    points: "17 21 17 13 7 13 7 21"
+  }), /*#__PURE__*/_react.default.createElement("polyline", {
+    points: "7 3 7 8 15 8"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconSave = IconSave;
+
+const IconScissors = _ref220 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref220;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "6",
+    cy: "6",
+    r: "3"
+  }), /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "6",
+    cy: "18",
+    r: "3"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "20",
+    y1: "4",
+    x2: "8.12",
+    y2: "15.88"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "14.47",
+    y1: "14.48",
+    x2: "20",
+    y2: "20"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "8.12",
+    y1: "8.12",
+    x2: "12",
+    y2: "12"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconScissors = IconScissors;
+
+const IconCopy = _ref221 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref221;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("rect", {
+    x: "9",
+    y: "9",
+    width: "13",
+    height: "13",
+    rx: "2",
+    ry: "2"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconCopy = IconCopy;
+
+const IconClipboard = _ref222 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref222;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"
+  }), /*#__PURE__*/_react.default.createElement("rect", {
+    x: "8",
+    y: "2",
+    width: "8",
+    height: "4",
+    rx: "1",
+    ry: "1"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconClipboard = IconClipboard;
+
+const IconCode = _ref223 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref223;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("polyline", {
+    points: "16 18 22 12 16 6"
+  }), /*#__PURE__*/_react.default.createElement("polyline", {
+    points: "8 6 2 12 8 18"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconCode = IconCode;
+
+const IconLink = _ref224 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref224;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconLink = IconLink;
+
+const IconPaperclip = _ref225 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref225;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"
+  }));
+};
+/**
+ * Destructuring JavaScript Function
+ * @params {color} set color icon
+ * @params {size} set size icon
+ * @params {weight} set weight icon
+ * @params {lineCap} set strokeLineCap icon
+ * @params {lineJoin} set strokeLineJoin icon
+ */
+
+
+exports.IconPaperclip = IconPaperclip;
+
+const IconDelete = _ref226 => {
+  let {
+    color,
+    size,
+    weight,
+    lineCap,
+    lineJoin
+  } = _ref226;
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size ? size : SIZE,
+    height: size ? size : SIZE,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: color ? color : COLOR,
+    strokeWidth: weight ? weight : WEIGHT,
+    strokeLinecap: lineCap ? lineCap : LINECAP,
+    strokeLinejoin: lineJoin ? lineJoin : LINEJOIN
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M21 4H8l-7 8 7 8h13a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "18",
+    y1: "9",
+    x2: "12",
+    y2: "15"
+  }), /*#__PURE__*/_react.default.createElement("line", {
+    x1: "12",
+    y1: "9",
+    x2: "18",
+    y2: "15"
+  }));
+};
+
+exports.IconDelete = IconDelete;

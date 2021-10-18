@@ -15,7 +15,7 @@ To install Senirupa
   npm i senirupa --save
 ```
 
-## Usage
+## Icon Usage
 
 Check the example folder for more details. [Example](https://github.com/firmnardians/senirupa/tree/master/example)
 
